@@ -13,9 +13,9 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<HomePage />} />
-        <Route path='/Личный Кабинет' element={<PersonalPage/>}/>
-        <Route path='/Задания' element={<QuizPage/>}/>
-        <Route path='/Карта' element={<RoadMap/>}/>
+        <Route path='/Account' element={<PersonalPage/>}/>
+        <Route path='/sui' element={<QuizPage/>}/>
+        <Route path='/Roadmap' element={<RoadMap/>}/>
       </Routes>
     </Router>
   );
